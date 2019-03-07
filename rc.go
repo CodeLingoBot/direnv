@@ -97,7 +97,7 @@ func (self *RC) Allowed() bool {
 	return false
 }
 
-// Makes the path relative to the current directory. Except when both paths
+// RelTo: Makes the path relative to the current directory. Except when both paths
 // are completely different.
 // Eg:  /home/foo and /home/bar => ../foo
 // But: /home/foo and /tmp/bar  => /home/foo

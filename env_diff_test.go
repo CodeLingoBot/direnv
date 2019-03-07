@@ -24,7 +24,7 @@ func TestEnvDiff(t *testing.T) {
 	}
 }
 
-// Issue #114
+// TestEnvDiffEmptyValue Issue #114
 // Check that empty environment variables correctly appear in the diff
 func TestEnvDiffEmptyValue(t *testing.T) {
 	before := Env{}

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 )
 
-// Loosely
+// XdgConfigDir: Loosely
 // http://standards.freedesktop.org/basedir-spec/basedir-spec-0.8.html
 // We don't handle XDG_CONFIG_DIRS yet
 func XdgConfigDir(env Env, programName string) string {
